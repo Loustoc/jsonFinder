@@ -1,0 +1,25 @@
+{
+  "name": "jsonfinder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.cts,.mts --fix --ignore-path .eslintignore",
+    "format": "prettier --write ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Loustoc/jsonFinder.git"
+  },
+  "author": "Lou Kail",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Loustoc/jsonFinder/issues"
+  },
+  "homepage": "https://github.com/Loustoc/jsonFinder#readme",
+  "devDependencies": {
+    "eslint": "^8.52.0",
+    "prettier": "^3.0.3"
+  }
+}
